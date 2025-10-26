@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FUNZY</title>
+</head>
+<body>
+   
+    <div class="start">
+        <a href="index.html"><img  src="images/ZI.png" height="50" width="50"></a>
+        <a href="Fun Home.html"><img src="images/funzy logo1.png" height="100" width="150" class="sign"></a>
+        <img src="images/h1.png" width="50" height="50" style="cursor: pointer;">
+    </div>
+
+    <div class="head">
+        <p><a href="Fun Home.html">Home</a></p>
+        <p>Games</p>
+        <p>Upcoming</p>
+    </div>
+
+
+    <div class="s">
+        <input class="ss" type="search" placeholder="Search for games...">
+    </div>
+
+
+    <div class="g">
+        <a href="flappy-wings.html">
+            <div class="fwl">
+                <img src="images/fwl.jpg" width="200px" height="140px" style="border-radius: 20px;">
+                <div class="fwlt">
+                    <h2>Flappy-Wings</h2>
+                </div>
+            </div>
+        </a>
+
+         <a href="">
+            <div class="fwl">
+                <img src="images/g2.jpg" width="200px" height="140px" style="border-radius: 20px;">
+                <div class="fwlt">
+                    <h2>The Wild</h2>
+                </div>
+            </div>
+        </a>
+            <a href="">
+                <div class="fwl">
+                    <img src="images/g3.jpg" width="200px" height="140px" style="border-radius: 20px;">
+                    <div class="fwlt">
+                        <h2>Minato</h2>
+                    </div>
+                </div>
+         <a href="">
+            <div class="fwl">
+                <img src="images/g3.jpg" width="200px" height="140px" style="border-radius: 20px;">
+                <div class="fwlt">
+                    <h2>Minato</h2>
+                </div>
+            </div>
+        </a>
+
+         <a href="">
+            <div class="fwl">
+                <img src="" width="200px" height="140px" style="border-radius: 20px;">
+                <div class="fwlt">
+                    <h2></h2>
+                </div>
+            </div>
+        </a>
+
+
+    </div>
+
+
+
+
+    <div class="up">
+         <a href="">
+            <center>
+            <div class="upg">
+                <img src="" width="800px" height="250px" style="border-radius: 20px;">
+                <div class="upgt">
+                    <h2>Upcoming</h2>
+                </div>
+            </div>
+            </center>
+        </a>
+    </div>
+
+
+
+
+
+    <div class="g">
+        <a href="">
+            <div class="fwl">
+                <img src="" width="200px" height="140px" style="border-radius: 20px;">
+                <div class="fwlt">
+                    <h2></h2>
+                </div>
+            </div>
+        </a>
+
+         <a href="">
+            <div class="fwl">
+                <img src="" width="200px" height="140px" style="border-radius: 20px;">
+                <div class="fwlt">
+                    <h2></h2>
+                </div>
+            </div>
+        </a>
+
+         <a href="">
+            <div class="fwl">
+                <img src="" width="200px" height="140px" style="border-radius: 20px;">
+                <div class="fwlt">
+                    <h2></h2>
+                </div>
+            </div>
+        </a>
+
+         <a href="">
+            <div class="fwl">
+                <img src="" width="200px" height="140px" style="border-radius: 20px;">
+                <div class="fwlt">
+                    <h2></h2>
+                </div>
+            </div>
+        </a>
+
+        
+
+    </div>
+    
+
+
+</body>
+
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body{
+        background-image: url('images/b2.jpg');
+        background-position: center;
+        background-size: 300px;
+        backdrop-filter: blur(2px);
+        
+
+    }
+
+    .head{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    p{
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        font-size: 30px;
+        color: rgb(0, 174, 255);
+        border-radius: 10px;
+        cursor: pointer;
+        
+
+    }
+    p:hover{
+         background-color: rgb(6, 255, 234);
+        transition: 0.3s;
+    }
+    a{
+        text-decoration: none;
+        color: rgb(0, 174, 255);
+    }
+    .s{
+         display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 40px;
+        
+    }
+    .sign{
+        margin-top: 40px;
+
+    }
+    .ss{
+        border-radius: 10px;
+        border-color: rgb(83, 194, 245);
+        border-width: 5px;
+        width: 200px;
+        color: cyan;
+    
+    }
+    .ss::placeholder{
+        color: cyan;
+    }
+
+    .start{
+        display: grid;
+        grid-template-columns: 0.9fr 1fr 0.1fr;
+        margin-top: 20px;
+    }
+
+    .fwl{
+        background-color: rgb(52, 233, 240);
+        width: 200px;
+        margin-left: 60px;
+        margin-top: 50px;
+        color: black;
+        border-radius: 20px;
+        opacity: 50px;
+
+    }
+    
+    
+
+    .fwlt{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 7px;
+    }
+
+    .g{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    .up{
+        margin-top: 50px;
+        
+    }
+
+    .upg{
+        background-color: cyan;
+        width: 800px;
+        padding-bottom: 7px;
+        border-radius: 20px;
+    }
+
+    .upgt{
+        color: white;
+    }
+
+    
+    
+    
+</style>
+</html>
